@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "c8": "7.13.0",
+    "chai": "4.3.7",
+    "mocha": "10.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 --reporter=text --reporter=lcov mocha --timeout 25000 test"
+  },
+  "dependencies": {
+    "standard": "^17.0.0"
+  }
+}
